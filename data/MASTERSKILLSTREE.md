@@ -1,0 +1,31 @@
+# Master Skills Tree
+
+- **Master Skills**
+  - **Cognition**
+    - **Critical Reasoning Chain** — Sequential instantiation of maximum common sense, logic, critical thinking, and 
+    - **Common Sense Logic Critical Thinking** — Use maximum common sense, logic, and critical thinking. Source-faithful referenc
+    - **Grok 4.20 Multi Agent** — Apply Grok 4.20 native multi-agent collaboration — Captain Grok, Harper (researc
+    - **Archivist** — Activate when user references The Archivist persona, strict empirical fact-drive
+    - **Tool Use** — Describe and apply research tools in a traceable way. Use when a task involves f
+    - **Agent Orchestration** — Divide a large investigation among focused research workers and combine their re
+    - **Swarm Agent Framework** — Complex swarm/agent framework orchestration. Source-faithful reference for docum
+  - **Communication**
+    - **Coherent Communication** — Guide production of coherent structured speech with proper vocabulary flowing pr
+    - **Prose / OpenProse** — OpenProse VM skill pack. Activate on any `prose` command, .prose files, or OpenP
+  - **Technical Practice**
+    - **Vite** — Expert guidance for Vite development with modern build tooling, HMR, framework i
+    - **GitHub** — Use gh for GitHub issues, PR status, CI logs, comments, reviews, releases, and A
+    - **Game Dev** — Build playable browser games (Babylon.js) end-to-end using the godogen productio
+    - **PostgreSQL SQL** — Helps write review and optimize SQL queries for PostgreSQL. Triggers on requests
+    - **TDD Rust** — TDD workflow for RTK filter development. Red-Green-Refactor with Rust idioms. Re
+    - **External API Wrapper** — Call one or many external HTTP APIs with retries, bearer/basic auth, optional OA
+    - **Document Intelligence** — Document extraction and understanding skill. Handles PDFs, text, tables, metadat
+  - **Meta-Skills**
+    - **Skill Tree Engine** — Indefinite skill-tree engine that distills inputs into atomic skills, rebuilds m
+    - **Self Dev Resources** — Curated and actionable resources for deliberate self-development across skills, 
+    - **Self Extractor** — Extracts atomic skills, knowledge units, and capability maps from session inputs
+    - **Self Distiller** — Distills extracted atoms into master/learned trees, encyclopedia, insights, and 
+    - **Session Enhancements Mapper** — Maps slash-activated session modes (Xhigh, effort-100, online, dashboard, multi-
+    - **Autonomous Project Builder** — Fully autonomous construction, testing, and Vercel deployment of the Self-Dev Sk
+    - **Run Everything Activation** — “Run everything” and immediate activation. Source-faithful reference for documen
+    - **Continue Next Or Continue** — Continue when the user says “next” or “continue”. Source-faithful reference for 

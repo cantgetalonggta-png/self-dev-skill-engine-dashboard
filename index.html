@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Self-Dev Skill Engine · Live Dashboard</title>
+  <meta name="description" content="Autonomous self-development skill tree engine with extractor, distiller, encyclopedia, and session enhancements." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌳</text></svg>" />
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <div class="logo">SD</div>
+        <div>
+          <div class="brand-title">Self-Dev Engine</div>
+          <div class="brand-sub">Skill Ontology · Live</div>
+        </div>
+      </div>
+      <nav class="nav" id="nav">
+        <button data-view="overview" class="nav-item active"><span class="ico">◈</span> Overview</button>
+        <button data-view="enhancements" class="nav-item"><span class="ico">⚡</span> Session Enhancements</button>
+        <button data-view="trees" class="nav-item"><span class="ico">🌳</span> Skills Trees</button>
+        <button data-view="encyclopedia" class="nav-item"><span class="ico">📖</span> Encyclopedia</button>
+        <button data-view="insights" class="nav-item"><span class="ico">✦</span> Insights</button>
+        <button data-view="extractor" class="nav-item"><span class="ico">◇</span> Self Extractor</button>
+        <button data-view="distiller" class="nav-item"><span class="ico">◎</span> Self Distiller</button>
+        <button data-view="builder" class="nav-item"><span class="ico">⚒</span> Autonomous Builder</button>
+        <button data-view="verify" class="nav-item"><span class="ico">✓</span> Verification</button>
+        <button data-view="log" class="nav-item"><span class="ico">☰</span> Update Log</button>
+      </nav>
+      <div class="sidebar-foot">
+        <div class="pill" id="cyclePill">Cycle —</div>
+        <div class="muted" id="modePill">modes</div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <button class="menu-btn" id="menuBtn" aria-label="Menu">☰</button>
+        <h1 id="viewTitle">Overview</h1>
+        <div class="top-actions">
+          <button class="btn ghost" id="reloadBtn">Reload State</button>
+          <button class="btn primary" id="runCycleBtn">Run Cycle</button>
+        </div>
+      </header>
+
+      <section class="content" id="content">
+        <!-- filled by app.js -->
+      </section>
+    </main>
+  </div>
+
+  <div class="toast" id="toast" hidden></div>
+  <script src="app.js"></script>
+</body>
+</html>
